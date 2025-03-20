@@ -47,8 +47,6 @@ export class AppComponent {
     {img:"https://media.geeksforgeeks.org/img-practice/prod/courses/198/Web/Content/dsa_1723009292.webp" , title:"DSA", level:"Beginner", intrest:"Data Structures and Algorithms", refund:"100% refund"},
     {img:"https://media.geeksforgeeks.org/img-practice/prod/courses/458/Mobile/Other/Course_Tech_Int_1720846791.webp" , title:"Tech Int", level:"Intermediate", intrest:"Technical Interview", refund:"100% refund"},
     {img:"https://media.geeksforgeeks.org/img-practice/prod/courses/241/Web/Content/FSRNL_1705410152.webp" , title:"Full Stack", level:"Advanced", intrest:"Full Stack Development", refund:"100% refund"}
-    {img:"https://media.geeksforgeeks.org/img-practice/prod/courses/458/Mobile/Other/Course_Tech_Int_1720846791.webp" , title:"Tech Int", level:"Intermediate", intrest:"Technical Interview", refund:"100% refund"},
-    {img:"https://media.geeksforgeeks.org/img-practice/prod/courses/241/Web/Content/FSRNL_1705410152.webp" , title:"Full Stack", level:"Advanced", intrest:"Full Stack Development", refund:"100% refund"}
 
   ]
  }
