@@ -11,9 +11,28 @@
   </div>
 </div>
  -->
-<div class="card-collection">
-
-</div>
 
 <div *ngIf="bool_val">This is Conditional Statement</div>
 <button (click)="toggle()">Click Me!</button>
+
+<!-- <ul *ngFor="let item of todo">
+  <li>{{item.id}} {{item.title}} {{item.description}} {{item.active}}</li>
+  
+</ul> -->
+
+<div class="container d-flex justify-content-center">
+  <div class="row justify-content-center">
+    <div class="col-md-4 d-flex justify-content-center mb-4" *ngFor="let item of cards">
+      <div class="card" style="width: 18rem;">
+        <img src={{item.img}} class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.title}}</h5>
+          <p class="card-text">{{item.level}}</p>
+          <p>{{item.intrest}}</p>
+          <a href="#" class="btn btn-primary">{{item.refund}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
