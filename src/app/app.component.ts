@@ -15,11 +15,11 @@ import { card } from './card';
 })
 export class AppComponent {
  
-  selectedComponent: string = 'about'; // Default component
+  // selectedComponent: string = 'about'; // Default component
 
-  handleNavItemClick(item: string) {
-    this.selectedComponent = item;
-  }
+  // handleNavItemClick(item: string) {
+  //   this.selectedComponent = item;
+  // }
 
   bool_val = true;
   toggle() {
