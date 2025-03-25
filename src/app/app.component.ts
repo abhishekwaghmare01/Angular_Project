@@ -9,7 +9,7 @@ import { card } from './card';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,AcompComponent,BcompComponent,AboutComponent,CommonModule, RouterLink],
+  imports: [RouterOutlet,CommonModule, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
