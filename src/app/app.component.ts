@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { AcompComponent } from './acomp/acomp.component';
 import { BcompComponent } from './bcomp/bcomp.component';
 import { AboutComponent } from './about/about.component';
@@ -9,7 +9,7 @@ import { card } from './card';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,AcompComponent,BcompComponent,AboutComponent,CommonModule],
+  imports: [RouterOutlet,AcompComponent,BcompComponent,AboutComponent,CommonModule, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
